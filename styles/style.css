@@ -29,12 +29,12 @@ a{
 }
 
 a:hover{
-    color: rgb(132, 14, 201);
+    color: rgb(4, 77, 172);
     transition: 0.3s all;
 }
 
 #inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
+    border: 2px solid rgb(4, 77, 172);
     padding: 10px;
     border-radius: 15px;
 }
@@ -61,7 +61,7 @@ h2{
 }
 
 span{
-    color: rgb(132, 14, 201);
+    color: rgb(4, 77, 172);
 }
 
 p{
@@ -83,7 +83,7 @@ form{
 form [type="submit"]{
     height: 50px;
     width: 50%;
-    background-color: rgb(132, 14, 201);
+    background-color: rgb(4, 77, 172);
     color: white;
     font-weight: bold;
 }
