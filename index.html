@@ -37,8 +37,28 @@
                 <input type="email" placeholder="E-mail">
                 <input type="description" placeholder="Descreva a sua necessidade">
                 <input type="submit" value="Enviar >">
-            </form>
-        </aside>
+                <?php
+
+					if(isset($POST['submit']){
+						$to = 'thiago@cloudfit.com.br';
+
+						$subject = 'Website Change Reqest';
+
+						$headers = "From: site@cloudfit.com.br\r\n";
+						$headers .= "Reply-To: noreply@cloudfit.com.br\r\n";
+						$headers .= "MIME-Version: 1.0\r\n";
+
+						$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+						$message = 'Test Email';
+						$message .= '<h1>Hello, World!</h1>';
+
+						mail($to, $subject, $message, $headers);
+
+						}
+					?>
+			</form>
+		</aside>
 
         <article>
             <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="Cloud Manager">
